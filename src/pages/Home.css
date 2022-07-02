@@ -1,0 +1,122 @@
+.iuu{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    border-radius: 30px;
+    width:60vw;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.jj{
+    margin-left: auto;
+    margin-right: auto;
+    justify-self: center;
+}
+.bb{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  clip-path: circle();
+  
+ 
+}
+.ui{
+    box-shadow: 4px 4px 4px gainsboro;
+    margin: auto;
+     padding: 40px;
+     width: 40vw;
+     height: auto;
+     margin-top: 3px;
+
+ 
+     
+     
+    
+     position: absolute;
+   top: 20%;
+   left: 28%;
+   
+    
+   background-color: lavender;
+}
+@media  screen and (max-width:900px) {
+    .iuu{
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 8px 20px;
+        padding: 20px;
+        border-radius: 30px;
+        width:85vw
+        
+    
+    }
+    .ui{
+        box-shadow: 4px 4px 4px gainsboro;
+        margin: auto;
+         padding: 40px;
+         width: 80vw;
+         height: auto;
+     
+         
+         
+        
+         position: absolute;
+       top: 20%;
+       left: 10%;
+       
+        
+       background-color: lavender;
+    }
+}
+.ff{
+    box-shadow: 0 4px 4px gainsboro;
+   margin: auto;
+    padding: 40px;
+    width: 50vw;
+    height: 60vh;
+
+    
+    
+   
+    position: absolute;
+  top: 20%;
+  left: 25%;
+  
+   
+  background-color: white;
+}
+.ol{
+    background-color: lightskyblue;
+    width: 10vw;
+    border-radius: 10px;
+    color: whitesmoke;
+}
+
+@media screen and (max-width:1000px) {
+    .ff{
+        box-shadow: 0 4px 4px black;
+       margin: auto;
+        padding: 40px;
+        width: 80vw;
+        height: 60vh;
+    
+        
+        
+       
+        position: absolute;
+      top: 20%;
+      left: 10%;
+      
+       
+       background-color: white;
+    }
+    .ol{
+        background-color: lightskyblue;
+        width: 20vw;
+        border-radius: 10px;
+        color: whitesmoke;
+    }
+    
+}
