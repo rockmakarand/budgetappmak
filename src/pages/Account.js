@@ -4,6 +4,7 @@
 import { auth, db } from "../firebase";
 import React,{ useState } from "react";
 import { signOut } from "firebase/auth";
+import RemoveCookie from "./RemoveCookie";
 
 
 
@@ -15,6 +16,7 @@ const Account = () => {
     signOut(auth).then(() => {
       localStorage.clear();
       setIsAuth(false);
+      RemoveCookie(auth);
       window.location.pathname = "/login";
     });
   };
